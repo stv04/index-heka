@@ -18,55 +18,50 @@
     <!-- Custom  sCss -->
     <link rel="stylesheet" type="text/css" href="css/index/style.css" />
 
-    <!-- ---------------------- -->
-	<!-- Custom styles for this template-->
 	<link href="css/sb-admin-2.min.css" rel="stylesheet">
-  	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    
-
-    <title>Heka</title>
+    <title>Heka entrega</title>
 </head>
 <body>
 
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky nav-sticky sticky-dark">
+    <nav class="navbar-expand-lg fixed-top navbar-custom sticky p-3">
         <div class="d-flex flex-wrap justify-content-around m-auto">
             <!-- LOGO -->
             <a class="logo text-uppercase mr-2" href="#">
-                <h3 class="logo-light"> <img src="img/logo-heka-dark.png" alt="heka" style="width: 100px;"></h3>
-                <h3 class="logo-dark"><img src="img/logo-heka.png" alt="heka" style="width: 100px;"></h3>
+                <h3 class="logo-dark"> <img src="img/logo-heka-dark.png" alt="heka" style="width: 100px;"></h3>
+                <h3 class="logo-light"><img src="img/logo-heka.png" alt="heka" style="width: 100px;"></h3>
                 <!-- <img src="images/e-flex-logo.jpeg" alt="" class="logo-light" height="40" />
                 <img src="images/e-flex-logo.jpeg" alt="" class="logo-dark" height="40" /> -->
             </a>
-            <button class="navbar-toggler order-sm-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="mdi mdi-menu"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
                     <li class="nav-item active">
-                        <a href="#home" class="nav-link">Home</a>
+                        <h5><a href="#home" class="nav-link">Home</a></h5>
                     </li>
                     <li class="nav-item">
-                        <a href="#ventajas" class="nav-link">Ventajas</a>
+                        <h5><a href="#ventajas" class="nav-link">Ventajas</a></h5>
                     </li>
                     <li class="nav-item">
-                        <a href="#cotizar" class="nav-link">Cotizar Envio</a>
+                        <h5><a href="#cotizar" class="nav-link">Cotizar Envio</a></h5>
                     </li>
                     <li class="nav-item">
-                        <a href="#precios" class="nav-link">Precios</a>
+                        <h5><a href="#precios" class="nav-link">Precios</a></h5>
                     </li>
                     <li class="nav-item">
-                        <a href="#clientes" class="nav-link">Comentarios</a>
+                        <h5><a href="#clientes" class="nav-link">Comentarios</a></h5>
                     </li>
                     <li class="nav-item">
-                        <a href="#contacto" class="nav-link">Contacto</a>
+                        <h5><a href="#contacto" class="nav-link">Contacto</a></h5>
                     </li>
                 </ul>
             </div>
-            <div>
+            <div class="d-flex align-items-center">
                 <a href="iniciarSesion2.html" class="btn btn-warning navbar-btn">Ingresar</a>
-            <a href="registrarUsuarioCorporativo.html" class="btn btn-outline-warning navbar-btn ml-2">Registrarse</a>
+                <a href="registrarUsuarioCorporativo.html" class="btn btn-outline-warning navbar-btn ml-2">Registrarse</a>
             </div>
         </div>
     </nav> 
@@ -80,8 +75,8 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6">
                                 <div class="home-title mo-mb-20">
-                                    <h1 class=" mb-4 text-dark">¿Quieres aumentar tus ventas? </h1>
-                                    <p class=" home-desc mb-5">Somos la solución E-commerce para ti, te ofrecemos distintos aliados logísticos para que puedas realizar tus envíos y subir tu porcentaje de ventas, contamos con cobertura en el 99% del territorio Nacional.</p>
+                                    <h1 class="escritor mb-4 text-dark">¿Quieres <span class="escribiendo"></span><span class="barra"></span>?</h1>
+                                    <p class=" home-desc mb-5">Somos la <strong class="text-warning mx-1">solución E-commerce</strong> para ti, te ofrecemos distintos aliados logísticos para que puedas realizar tus envíos y subir tu porcentaje de ventas, contamos con cobertura en el 99% del territorio Nacional.</p>
                                 </div>
                             </div>
                             <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1 col-md-7">
@@ -103,7 +98,7 @@
         <!-- clients start -->
         <section class="section">
             <div class="container-fluid">
-                <div class="clients p-4 bg-white shadow-lg">
+                <div class="clients p-3 bg-white shadow-lg">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="title text-center mb-3">
@@ -148,14 +143,14 @@
             <div class="container-fluid">
 
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="text-center mb-4 pb-1">
-                            <h3>ventajas</h3>
-                            <p class="text-muted">Aumenta tu estatus en ventas y genera confianza en tus clientes
-                                Ofrecerás distintas modalidades de envío como lo son CONVENCIONAL, CONTRA ENTREGA Y PAGO CONTRA ENTREGA
-                                Heka no te exige facturación mínima
-                                Heka no te exige ningún tipo de permanencia</p>
-                        </div>
+                    <div class="col-12">
+                        <h1 class="text-center">Ventajas</h1>
+                        <ul class="list-group text-muted">
+                            <li class="list-group-item"><strong class="text-warning mr-2"><i class="mdi mdi-checkbox-marked-circle-outline mdi-24px"></i></strong> Aumenta tu estatus en ventas y genera <b class="text-warning mx-1"> confianza </b> en tus clientes</li>
+                            <li class="list-group-item"><strong class="text-warning mr-2"><i class="mdi mdi-checkbox-marked-circle-outline mdi-24px"></i></strong> Ofrecerás distintas modalidades de envío como lo son <b class="text-warning mx-1">CONVENCIONAL,</b> <b class="text-warning mx-1">CONTRA ENTREGA</b> Y <b class="text-warning mx-1">PAGO CONTRA ENTREGA</b></li>
+                            <li class="list-group-item"><strong class="text-warning mr-2"><i class="mdi mdi-checkbox-marked-circle-outline mdi-24px"></i></strong> Heka no te exige facturación mínima</li>
+                            <li class="list-group-item"><strong class="text-warning mr-2"><i class="mdi mdi-checkbox-marked-circle-outline mdi-24px"></i></strong> Heka no te exige ningún tipo de permanencia</li>
+                        </ul>
                     </div>
                 </div>
                 <!-- end row -->
@@ -195,7 +190,6 @@
                             <p class="text-muted mb-4">
                                 Heka Entrega te brinda cobertura en el 99% del territorio Nacional, permitiéndote despachar hacia distintos municipios y ciudades de Colombia. 
                             </p>
-                            <a href="javascript:void(0)" class="btn btn-warning btn-sm">lee más <i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -237,7 +231,6 @@
                             <p class="text-muted mb-4">
                                 El dinero recaudado de los envíos entregados entre los días lunes a viernes al medio y cuenten con comprobante de entrega, serán liquidados el miércoles de siguiente semana.
                             </p>
-                            <a href="javascript:void(0)" class="btn btn-warning btn-sm">lee más <i class="mdi mdi-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -258,7 +251,7 @@
 
                     <div class="col-lg-6">
                         <div class="feature-img">
-                            <img src="img/ilustraciones/Resume-amico.png" alt="" class="img-fluid mx-auto d-block">
+                            <img src="img/ilustraciones/Growth analytics-amico.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
                     </div>
                 </div>
@@ -486,15 +479,15 @@
                     <div class="col-lg-4">
                         <div class="testi-box mt-4">
                             <div class="testi-desc bg-white p-4">
-                                <p class="text-muted mb-0">" La Boutique De Sofia está muy satisfecha con todos los envíos que se han realizado, muy recomendados. "</p>
+                                <p class="text-muted mb-0">"Gracias a Heka Entrega mi negocio ha crecido, las entregas son rápidas, la gestión y el acompañamiento también es muy bueno. Además con los pagos rápidos tengo mas movimiento de mi capital y he podido incrementar mi inversión. Los recomiendo 100%"</p>
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-2.png" alt="" class="rounded-circle">
+                                    <img src="recursos/testi/j&j.jpeg" alt="" class="rounded-circle">
                                 </div>
                                 <div>
-                                    <h5 class="mb-0">Nathaly Alvarez</h5>
-                                    <p class="text-muted m-0"><small>- LA BOUTIQUE DE SOFIA</small></p>
+                                    <h5 class="mb-0">Juleidis Buelvas</h5>
+                                    <p class="text-muted m-0"><small>- J&Jdistribuidores</small></p>
                                 </div>
                             </div>
                         </div>
@@ -503,15 +496,15 @@
                     <div class="col-lg-4">
                         <div class="testi-box mt-4">
                             <div class="testi-desc bg-white p-4">
-                                <p class="text-muted mb-0">" Gracias a Heka Entrega ha cambiado mucho la forma de vender para nuestra tienda, envíos rapidos, pagos seguros, buena atención al cliente "</p>
+                                <p class="text-muted mb-0">"Heka para mi ha significado la expansion por todo el territorio nacional de mi empresa, Calzado RK gracias a Heka Entrega ha podido llegar a muchas ciudades, facilitando a las personas la adquisicion y pago de los productos con el servicio Paga en Casa, algo que ha elevado las ventas a un nivel que nunca llegue a imaginar, Gracias Heka Entrega, Excelente Servicio, lo recomiendo demasiado!!"</p>
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-1.png" alt="" class="rounded-circle">
+                                    <img src="recursos/testi/RK.jpeg" alt="" class="rounded-circle">
                                 </div>
                                 <div>
-                                    <h5 class="mb-0">Jhonathan beltran</h5>
-                                    <p class="text-muted m-0"><small>- H&K</small></p>
+                                    <h5 class="mb-0">Kenny Valladares</h5>
+                                    <p class="text-muted m-0"><small>- Calzado RK</small></p>
                                 </div>
                             </div>
                         </div>
@@ -520,15 +513,15 @@
                     <div class="col-lg-4">
                         <div class="testi-box mt-4">
                             <div class="testi-desc bg-white p-4">
-                                <p class="text-muted mb-0">" La Boutique De Sofia está muy satisfecha con todos los envíos que se han realizado, muy recomendados. "</p>
+                                <p class="text-muted mb-0">"Hola, mi nombre es Blas Mele, desde hace aproximadamente 14 meses vengo trabajando con HEKA ENTREGA, me brindan el servicio de poder ofrecer mis productos en este caso Alisantes Originales Colombianos, a mis clientes y pagar al recibir, ya que es el servicio mas solicitado. Mis ventas han aumentado y he contado con el apoyo y pago puntual de esta plataforma, así como la asesoría cuando lo necesito de todo el grupo de trabajo."</p>
                             </div>
                             <div class="p-4">
                                 <div class="testi-img float-left mr-2">
-                                    <img src="images/testi/img-3.png" alt="" class="rounded-circle">
+                                    <img src="recursos/testi/blasM.jpeg" alt="" class="rounded-circle">
                                 </div>
                                 <div>
-                                    <h5 class="mb-0">Nathaly Alvarez</h5>
-                                    <p class="text-muted m-0"><small>- LA BOUTIQUE DE SOFIA</small></p>
+                                    <h5 class="mb-0">Blas Mele</h5>
+                                    <p class="text-muted m-0"><small>- Maxlizocol By Blas Mele</small></p>
                                 </div>
                             </div>
                         </div>
