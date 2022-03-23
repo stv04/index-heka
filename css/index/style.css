@@ -210,12 +210,16 @@ p {
 *******************/
 .bg-home {
   position: relative;
-  padding: 200px 0px 180px 0px;
+  padding: 200px 0px 150px 0px;
   background: #ffffff;
   
 }
 .bg-gris{
   background: #e7e9ee;
+}
+
+.bg-soft-yellow {
+  background-color: #ffe17f45;
 }
 
 .home-center {
@@ -618,6 +622,10 @@ p {
   }
   .navbar-custom .logo .logo-dark {
     display: inline-block;
+  }
+
+  .navbar-custom .logo .logo-dark img {
+    height: 60px;
   }
   .navbar-custom .logo .logo-light {
     display: none;

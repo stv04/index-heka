@@ -19,18 +19,19 @@
     <link rel="stylesheet" type="text/css" href="css/index/style.css" />
 
 	<link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">;
 
     <title>Heka entrega</title>
 </head>
 <body>
 
     <!--Navbar Start-->
-    <nav class="navbar-expand-lg fixed-top navbar-custom sticky p-3">
+    <nav class="navbar-expand-lg fixed-top navbar-custom sticky py-1 px-4">
         <div class="d-flex flex-wrap justify-content-around m-auto">
             <!-- LOGO -->
             <a class="logo text-uppercase mr-2" href="#">
-                <h3 class="logo-dark"> <img src="img/logo-heka-dark.png" alt="heka" style="width: 100px;"></h3>
-                <h3 class="logo-light"><img src="img/logo-heka.png" alt="heka" style="width: 100px;"></h3>
+                <h3 class="logo-dark"> <img src="img/logo-heka-dark.png" alt="heka" style="max-height: 100px;"></h3>
+                <h3 class="logo-light"><img src="img/logo-heka.png" alt="heka" style="width: 50px;"></h3>
                 <!-- <img src="images/e-flex-logo.jpeg" alt="" class="logo-light" height="40" />
                 <img src="images/e-flex-logo.jpeg" alt="" class="logo-dark" height="40" /> -->
             </a>
@@ -74,7 +75,7 @@
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <div class="col-lg-6">
-                                <div class="home-title mo-mb-20">
+                                <div class="home-title mo-mb-20 animated">
                                     <h1 class="escritor mb-4 text-dark">¿Quieres <span class="escribiendo"></span><span class="barra"></span>?</h1>
                                     <p class=" home-desc mb-5">Somos la <strong class="text-warning mx-1">solución E-commerce</strong> para ti, te ofrecemos distintos aliados logísticos para que puedas realizar tus envíos y subir tu porcentaje de ventas, contamos con cobertura en el 99% del territorio Nacional.</p>
                                 </div>
@@ -98,7 +99,7 @@
         <!-- clients start -->
         <section class="section">
             <div class="container-fluid">
-                <div class="clients p-3 bg-white shadow-lg">
+                <div class="clients p-3 bg-white shadow-lg" data-animate="zoomIn">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="title text-center mb-3">
@@ -142,7 +143,7 @@
         <section class="section" id="ventajas">
             <div class="container-fluid">
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mb-5" data-animate="fadeIn">
                     <div class="col-12">
                         <h1 class="text-center">Ventajas</h1>
                         <ul class="list-group text-muted">
@@ -155,8 +156,8 @@
                 </div>
                 <!-- end row -->
 
-                <div class="row align-items-center mt-5">
-                    <div class="col-lg-6 animated bounceIn">
+                <div class="row align-items-center bg-soft-yellow rounded">
+                    <div class="offset-sm-1 col-12 col-sm-6" data-animate="fadeInLeft">
                         <div class="p-5 features-content">
                             <div class="features-icon mb-4">
                                 <i class="mdi mdi-auto-fix h4 text-white text-center"></i>
@@ -168,7 +169,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-5" data-animate="fadeInRight">
                         <div class="feature-img">
                             <img src="img/ilustraciones/Developer activity-amico.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
@@ -176,12 +177,7 @@
                 </div>
 
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="feature-img">
-                            <img src="img/ilustraciones/Online world-cuate.png" alt="" class="img-fluid mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-6 order-sm-1" data-animate="fadeInRight">
                         <div class="p-5 features-content">
                             <div class="features-icon mb-4">
                                 <i class="mdi mdi-chart-bar h4 text-white text-center"></i>
@@ -192,11 +188,17 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-12 col-sm-5" data-animate="fadeInLeft">
+                        <div class="feature-img">
+                            <img src="img/ilustraciones/Online world-cuate.png" alt="" class="img-fluid mx-auto d-block">
+                        </div>
+                    </div>
                 </div>
                 <!-- end row -->
 
-                <div class="row align-items-center mt-5">
-                    <div class="col-lg-6">
+                <div class="row align-items-center bg-soft-yellow rounded">
+                    <div class="offset-sm-1 col-12 col-sm-6" data-animate="fadeInLeft">
                         <div class="p-5 features-content">
                             <div class="features-icon mb-4">
                                 <i class="mdi mdi-auto-fix h4 text-white text-center"></i>
@@ -208,7 +210,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-5" data-animate="fadeInRight">
                         <div class="feature-img">
                             <img src="img/ilustraciones/Resume-amico.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
@@ -217,12 +219,7 @@
                 <!-- end row -->
 
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="feature-img">
-                            <img src="img/ilustraciones/Manage money-amico.png" alt="" class="img-fluid mx-auto d-block">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-6 order-sm-1" data-animate="fadeInRight">
                         <div class="p-5 features-content">
                             <div class="features-icon mb-4">
                                 <i class="mdi mdi-currency-usd h4 text-white text-center"></i>
@@ -233,11 +230,16 @@
                             </p>
                         </div>
                     </div>
+                    <div class="col-12 col-sm-5" data-animate="fadeInLeft">
+                        <div class="feature-img">
+                            <img src="img/ilustraciones/Manage money-amico.png" alt="" class="img-fluid mx-auto d-block">
+                        </div>
+                    </div>
                 </div>
                 <!-- end row -->
 
-                <div class="row align-items-center mt-5">
-                    <div class="col-lg-6">
+                <div class="row align-items-center bg-soft-yellow rounded">
+                    <div class="offset-sm-1 col-12 col-sm-6" data-animate="fadeInLeft">
                         <div class="p-5 features-content">
                             <div class="features-icon mb-4">
                                 <i class="mdi mdi-auto-fix h4 text-white text-center"></i>
@@ -249,7 +251,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-5" data-animate="fadeInRight">
                         <div class="feature-img">
                             <img src="img/ilustraciones/Growth analytics-amico.png" alt="" class="img-fluid mx-auto d-block">
                         </div>
@@ -265,7 +267,7 @@
         <section class="contenedor-costoenvio section bg-gris pb-0" id="contenedor-costoenvio">
             <div class="container-fluid">
                 <div class="row justify-content-center" id="cotizar">
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-6">
                         <div class="text-center mb-5">
                             <h3>Costos de envío</h3>
                         </div>
@@ -350,7 +352,7 @@
             </div>
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6">
+                    <div class="col-12 col-sm-6">
                         <div class="text-center mb-4">
                             <h3 class="text-white">Mira lo que te ofrecemos</h3>
                             <p class="text-white-50">Pagas solo por los que vendes.</p>
@@ -541,7 +543,7 @@
                     <div class="col-lg-12">
                         <div class="title text-center mb-4">
                             <h3>¿Tienes alguna pregunta?</h3>
-                            <p>Por favor, llena el formulario a continuación y en breve atenderemos sus inquietudes.</p>
+                            <p>Puedes comunicarte con nosotros por los siguientes medios y en breve atenderemos sus inquietudes.</p>
                         </div>
                     </div>
                 </div>
@@ -560,15 +562,15 @@
                     </div>
                     <!-- end col -->
                     <div class="col-lg-4">
-                        <div class="contact-content text-center mt-4">
+                        <a href="https://wa.link/8m9ovw" class="contact-content text-center mt-4">
                             <div class="contact-icon mb-2">
                                 <i class="mdi mdi-cellphone-iphone text-warning h2"></i>
                             </div>
                             <div class="contact-details">
                                 <h5>Teléfono</h5>
-                                <p>310-123-4567</p>
+                                <p>312 463 8608</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <!-- end col -->
                     <div class="col-lg-4">
@@ -679,7 +681,7 @@
                             <p class="text-white mb-2 footer-list-title">Redes Sociales</p>
                             <ul class="list-unstyled">
                                 <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Facebook </a></li>
-                                <li><a href="#"><i class="mdi mdi-chevron-right mr-2"></i>Twitter</a></li>
+                                <li><a href="https://wa.link/8m9ovw" target="_blank"><i class="mdi mdi-chevron-right mr-2"></i>WhatsApp</a></li>
                                 <li><a href="https://instagram.com/heka_entrega?utm_medium=copy_link" target="_blank"><i class="mdi mdi-chevron-right mr-2"></i>Instagram</a></li>
                             </ul>
                         </div>
@@ -721,9 +723,8 @@
                                     Social :
                                 </li>
                                 <li class="list-inline-item"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="https://wa.link/8m9ovw"><i class="mdi mdi-whatsapp"></i></a></li>
                                 <li class="list-inline-item"><a href="https://instagram.com/heka_entrega?utm_medium=copy_link" target="_blank"><i class="mdi mdi-instagram"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -858,5 +859,7 @@
 
         <script src="/js/consultarCiudades.js" type="module"></script>
 	    <script src="/js/cotizador.js"></script>
+
+        <script src="js/index/animate.js"></script>
 </body>
 </html>
